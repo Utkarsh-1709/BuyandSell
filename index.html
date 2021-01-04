@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    </head>
+    <body>
+
+    <center>
+                <h1 class="alert-success">Registration Form</h1>
+                <br>
+                <br>
+        <form action="Registration.jsp" method="post">
+            FirstName
+            <input type="text" name='fname' value="" placeholder="firstname" class="form-control" /><br>
+            LastName
+            <input type="text" name='lname' value="" placeholder="lastname" class="form-control" /><br>
+            Email
+            <input type="text" name='email' value="" placeholder="email" class="form-control" /><br>
+            City
+            <input type="text" name='city' value="" placeholder="city" class="form-control" /><br>
+            Password
+            <input type="text" name='password' value="" placeholder="enter password" class="form-control" /><br><br>
+            <button type="submit" name="submit" class="btn btn-primary" class="form-control" >Submit</button>
+        </form>
+                <form action="Login.jsp"><h2>already user?<button type="submit">Sign In</button></h2></form>
+                
+        </center>
+    </body>
+</html>
